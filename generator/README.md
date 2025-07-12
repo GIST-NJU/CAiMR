@@ -35,6 +35,8 @@ Where:
 - &lt;name&gt;:  Name of the subject (e.g., Boyer, Printtokens2)
 - &lt;strength&gt;: Coverage strength (2, 3, or 4)
 - &lt;mode&gt;:
+	- 0: Retain follow-ups not covering new combinations
+	- 1: Discard them
 
 
 **Example**
