@@ -11,10 +11,15 @@ This document describes how to run the CAiMR test case generator using the provi
 Your directory structure should look like this:
 
 your-folder/
+
 ├── CAiMR.jar
+
 └── subjects/
+
 &nbsp; ├── Boyer/
+
 &nbsp; ├── Bsearch2/  
+
 &nbsp; ├── ...
 
 
@@ -24,13 +29,12 @@ Use the following command to run CAiMR:
 
 java -jar CAiMR.jar <name> <strength> <mode>
 
-Where:
-- <name>: Name of the subject (e.g., Boyer, Printtokens2)
-- <strength>: Coverage strength (2, 3, or 4)
-- <mode>:
+java -jar CAiMR.jar &lt;name&gt;  &lt;strength&gt; &lt;mode&gt;
 
-  - 0: Retain follow-ups not covering new combinations
-  - 1: Discard them
+Where:
+- &lt;name&gt;:  Name of the subject (e.g., Boyer, Printtokens2)
+- &lt;strength&gt;: Coverage strength (2, 3, or 4)
+- &lt;mode&gt;:
 
 
 **Example**
@@ -49,9 +53,13 @@ subjects/<name>/output/
 **Example**
 
 subjects/Boyer/output
+
 ├── tests_abstract.txt
+
 ├── tests_concrete.txt
+
 ├── mgs.txt
+
 └── statistic.csv
 
 
