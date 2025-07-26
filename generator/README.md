@@ -27,8 +27,6 @@ your-folder/
 
 Use the following command to run CAiMR:
 
-java -jar CAiMR.jar <name> <strength> <mode>
-
 java -jar CAiMR.jar &lt;name&gt;  &lt;strength&gt; &lt;mode&gt;
 
 Where:
